@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="nav" style="min-height: 100px">
+      <img src="./images/nav-logo.png" alt="" width="150px" height="100px" />
+    </nav>
+    <header class="header" style="min-height: 400px">
+      <div class="left-header">
+        <h1>Diamond Pressure</h1>
+        The Diamond Pressure is one of the quietest massage guns on the market.
+        Its 24-volt, high-torque brushless motor keeps noise between 35 and 55
+        decibels. Even on the highest of its 16 different speed settings, it’s
+        quieter than the lowest setting of most other massage guns. Its battery
+        life is also competitive, clocking in around three hours for one full
+        charge. And at 1.5 pounds, it’s a pretty lightweight option as well.
+        Plus, it comes with a convenient carrying case so you don’t have to
+        worry about misplacing its various attachments.
+      </div>
+      <div class="right-header">
+        <img
+          src="./images/main.jpg"
+          alt=""
+          class="img"
+          width="85%"
+          height="100%"
+        />
+      </div>
+    </header>
+    <main class="main" style="min-height: 400px">
+      <div class="left-main">
+        <img
+          src="https://cdn.pixabay.com/photo/2015/11/03/09/03/at-1019990__340.jpg"
+          class="img-main"
+          alt=""
+          width="85%"
+          height="100%"
+        />
+      </div>
+      <div class="right-main">
+        <h2>Fill in your details</h2>
+
+        <form id="id_form" method="POST" autocomplete="off">
+          <p>
+            <label>Full Name : </label><br /><input
+              class="input"
+              type="text"
+              width="100%"
+              id="id_fullName"
+              name="fullName"
+            /><br />
+            <small id="id_fullName_error" style="color: red"></small>
+          </p>
+          <br />
+          <p>
+            <label>Email : </label><br /><input
+              id="id_email"
+              class="input"
+              type="email"
+              name="email"
+            /><br />
+            <small id="id_email_error" style="color: red"></small>
+          </p>
+          <br />
+          <p>
+            <label>Phone : </label><br />
+
+            <input
+              id="id_phone"
+              class="input"
+              type="tel"
+              name="phone"
+              pattern="^[0-9]*$"
+            />
+            <br />
+            <small style="color: red" id="id_phone_error"></small>
+          </p>
+          <br />
+          <button type="submit" class="button">
+            <label>send</label>
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer class="footer" style="min-height: 100px">
+      <img src="./images/footer-logo.png" alt="" width="150px" height="100px" />
+      <p>Alon Yahalom &copy;</p>
+    </footer>
+  </body>
+</html>

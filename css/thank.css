@@ -1,0 +1,41 @@
+/* ------------Small screen---------------- */
+
+@media (min-width: 300px) {
+  .nav {
+    min-width: 100%;
+    text-align: center;
+    border-bottom: 1px dashed grey;
+  }
+  .footer {
+    min-width: 100%;
+    text-align: center;
+
+    background-color: rgba(128, 128, 128, 0.911);
+    margin-top: 10px;
+  }
+  .main {
+    text-align: center;
+    margin-top: 100px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .thank_div {
+    background-color: rgba(128, 128, 128, 0.911);
+  }
+}
+/* -----------------Full screen------------------------------ */
+@media (min-width: 950px) {
+  .main {
+    display: block;
+    margin: 0 auto;
+    width: 950px;
+  }
+}
+
+/* ------ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+}
